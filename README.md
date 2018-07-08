@@ -14,8 +14,9 @@ Summary: A toolkit for generation of output for the web
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/genshi-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/genshi-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/genshi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/genshi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/genshi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/genshi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/genshi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/genshi-feedstock/branch/master)
 
 Current release info
 ====================
