@@ -10,12 +10,14 @@ source:
 
 build:
   number: 1000
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
+  build:
+    - {{ compiler('c') }}
   host:
-    - pip
     - python
+    - pip
   run:
     - python
 
@@ -32,6 +34,7 @@ test:
 about:
   home: http://genshi.edgewall.org/
   license: BSD-3-Clause
+  license_file: COPYING
   summary: A toolkit for generation of output for the web
 
 extra:
