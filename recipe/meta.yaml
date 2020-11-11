@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -20,22 +20,24 @@ requirements:
     - pip
   run:
     - python
+    - six
 
 test:
   imports:
     - genshi
     - genshi.filters
-    - genshi.filters.tests
     - genshi.template
-    - genshi.template.tests
-    - genshi.template.tests.templates
-    - genshi.tests
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://genshi.edgewall.org/
+  summary: A toolkit for generation of output for the web
+  doc_url: https://pythonhosted.org/Genshi/
   license: BSD-3-Clause
   license_file: COPYING
-  summary: A toolkit for generation of output for the web
 
 extra:
   recipe-maintainers:
