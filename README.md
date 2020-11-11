@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/genshi-feedstoc
 
 Summary: A toolkit for generation of output for the web
 
+Documentation: https://pythonhosted.org/Genshi/
+
 Current build status
 ====================
 
