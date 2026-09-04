@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/G/Genshi/genshi-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/G/Genshi/genshi-{{ version }}.tar.gz
   sha256: 82c4f9bbf4b03be5162a24d6d8e4fdbfe3ed2602d3ebcbf505a33350a379dcb7
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
