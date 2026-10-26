@@ -1,4 +1,4 @@
-{% set version = "0.7.11" %}
+{% set version = "0.7.12" %}
 
 package:
   name: genshi
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/G/Genshi/genshi-{{ version }}.tar.gz
-  sha256: 82c4f9bbf4b03be5162a24d6d8e4fdbfe3ed2602d3ebcbf505a33350a379dcb7
+  sha256: 4bca21a5a2515dabf985176be897a5b3b624626b4a9fcb648720b7c5fab71627
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
