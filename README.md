@@ -3,7 +3,7 @@ About genshi-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/genshi-feedstock/blob/main/LICENSE.txt)
 
-Home: http://genshi.edgewall.org/
+Home: https://github.com/edgewall/genshi
 
 Package license: BSD-3-Clause
 
